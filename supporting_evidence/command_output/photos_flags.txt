@@ -1,0 +1,6 @@
+        filename          is_deleted  trash_timestamp  in_camera_folder  is_hidden  is_archived  is_favorite  has_local
+------------------------  ----------  ---------------  ----------------  ---------  -----------  -----------  ---------
+IMG_20190917_082637.jpg            0                                  1          0            0            0          1
+2020-02-09-125547759.mp4           0                                  1          0            0            0          1
+IMG_20200209_132353.jpg            0                                  1          0            0            0          1
+IMG_20200213_195030.jpg            0                                  1          0            0            0          1

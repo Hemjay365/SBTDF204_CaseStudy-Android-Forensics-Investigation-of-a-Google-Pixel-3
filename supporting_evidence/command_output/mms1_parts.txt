@@ -1,0 +1,4 @@
+_id  msg_box  m_type  text_only     date             utc          part_id  seq         ct                                text                         _data
+---  -------  ------  ---------  ----------  -------------------  -------  ---  ----------------  --------------------------------------------------  -----
+  1        2     128          1  1580587493  2020-02-01 20:04:53        1   -1  application/smil  <smil><head><layout><root-layout/><region id="Text
+  1        2     128          1  1580587493  2020-02-01 20:04:53        2    0  text/plain        Here's Signal.

@@ -1,0 +1,65 @@
+evidence_id,source_path,record_reference,size_bytes,sha256
+EV-001,original/Pixel 3.zip,Source archive (baseline),5247820897,ca6918ef8b20486b6a5ded15609ac51318f377829480f93be3ba15364a8aa00a
+EV-002,work/Pixel 3/system/build.prop,"Device properties: build id, Android version, security patch (Task 2.1)",1970,4d6fceefbd6dfc741ba219fc213c5ba6b806b9e21f986480269bef8ab9c2b424
+EV-003,work/Pixel 3/vendor/build.prop,Device properties: vendor manufacturer/model (Task 2.1),4875,5434b8abdcf213ab7d4279b76bb261e62588e9fa5c75e6a60c03c65d4d52f855
+EV-004,work/Pixel 3/data/system/users/userlist.xml,"User list: users 0 and 11, no device owner (Task 2.2)",356,de15b5a903c3d32f57a9d3d916a6fc1c5ffca3d8eb7d3796f01f1cd4b1ab3adb
+EV-005,work/Pixel 3/data/system/users/0.xml,User 0 profile record (Task 2.2),345,67bfa3b7d80bf18687efe33706d70ef3fc656fc7504f582e55832538ccc1527e
+EV-006,work/Pixel 3/data/system/users/11.xml,User 11 profile record (Task 2.2),359,4c2ddf503168f2e53fabd6e2c94784c01c793ec6929e3eff5aaca54e660021ab
+EV-007,work/Pixel 3/data/system_ce/0/accounts_ce.db,Account DB user 0 CE (Task 2.2),266240,aeecec36280fb8156c1669f0fd06d0e3e621740699a56a38affdd38630b26c0f
+EV-008,work/Pixel 3/data/system_de/0/accounts_de.db,Account DB user 0 DE (Task 2.2),65536,b436a39e5f7c6f56fcb93715c85454f93eb07866699ac34cbb874737935c9ff5
+EV-009,work/Pixel 3/data/system_de/11/accounts_de.db,Account DB user 11 DE (Task 2.2),65536,ca5531c2b3b34fd2d92dbc14aafa9acdd0347a0e460815181664594c003e193e
+EV-010,work/Pixel 3/data/system/users/0/settings_global.xml,"Global settings, user 0 (Task 3.1)",25315,fd2a00d9f10a8fee5be378a1800f667d0eed6de8841a6d9a787aa087aa3975a9
+EV-011,work/Pixel 3/data/system/users/0/settings_secure.xml,"Secure settings, user 0 (Task 3.1)",21631,46019f1986bb5ada3dcd17ec9b675bd4438fddee4b5ed0c1cc8bd02673a84893
+EV-012,work/Pixel 3/data/system/users/0/settings_system.xml,"System settings, user 0 (Task 3.1)",5593,301791dcbfb72a85c51ce28a851fc32156a038bdee4901d59bb54b6aa4625bab
+EV-013,work/Pixel 3/data/data/com.android.vending/shared_prefs/lastAccount.xml,"Play Store last account, corroborates user 0 Google account (Task 2.2)",134,a4675d8e9dc996163c20383a35ac0dbd34bc3e35ed9df00841f9a02c8406a152
+EV-014,work/Pixel 3/data/misc/wifi/WifiConfigStore.xml,"Wi-Fi saved networks, system store (Task 3.2)",626,cbd2b0039aa786967740b182c4229bf9e0ce147640f0bc00b93255a9c8613986
+EV-015,work/Pixel 3/data/misc_ce/0/wifi/WifiConfigStore.xml,"Wi-Fi saved networks, user 0 CE store (Task 3.2)",966,3737a8cfbb5a8516ef7112673662e428cf37edf71723deef87b3cc5167bc5b8c
+EV-016,work/Pixel 3/data/misc/bluedroid/bt_config.conf,Bluetooth adapter and bonded devices (Task 3.2),919,60eadc1116b937924d11d0b02535c03a7030b6f544ecdc5394593503f7563aa7
+EV-017,work/Pixel 3/data/vendor/wifi/wpa/wpa_supplicant.conf,wpa_supplicant data copy (Task 3.2),81,bfde8f81a2ba1fe98e26d2d72a3780d8569fbfa141f5b594637f6dda7ef7f21a
+EV-018,work/Pixel 3/data/data/com.android.providers.telephony/databases/mmssms.db,"Telephony Provider mmssms.db, main copy: sms 24, pdu 7, part 10 (Task 4.1)",118784,cd5452f52933252f9dca9177491e0a316b542755ac7eb40e61b4b5e3c53f1342
+EV-019,work/Pixel 3/data/user_de/0/com.android.providers.telephony/databases/mmssms.db,"Telephony Provider mmssms.db, user_de copy: all tables 0 rows (Task 4.1)",118784,d0ce9034defe1f2ba0409f1c86947447cd90f414a4fda5d847804d01ef34c827
+EV-020,work/Pixel 3/data/data/com.android.providers.contacts/databases/contacts2.db,Contacts provider (Task 4.3),376832,2a1fee3d9412e2f746592fcc0f7abcdd0ece26bc02c95240fd210464f4625050
+EV-021,work/Pixel 3/data/data/com.android.providers.contacts/databases/calllog.db,Call log provider (Task 4.3),40960,5979a3fa0b4e70aff6dc20675e84a14fa584e52ad4d224d9da14d8aa0ef809d3
+EV-022,work/Pixel 3/data/data/com.android.providers.calendar/databases/calendar.db,Calendar provider (Task 4.4),122880,82a580901fca7580dd8841a1c988dcaa65afef068f386d603aeec6039e5aca3c
+EV-023,work/Pixel 3/data/data/com.google.android.apps.messaging/databases/bugle_db,Google Messages bugle_db with sidecars (Task 5.1),425984,ed4f19eb9fb60fea72545006be9cd6b47171cb8822894f7da3276a57ea7e3a33
+EV-024,work/Pixel 3/data/data/com.google.android.apps.messaging/databases/bugle_db-wal,Google Messages bugle_db with sidecars (Task 5.1),465592,4c26894af2e33601895c6ed9f9f08a25936f4802b02872ea807eac87160bd26e
+EV-025,work/Pixel 3/data/data/com.google.android.apps.messaging/databases/bugle_db-shm,Google Messages bugle_db with sidecars (Task 5.1),32768,e6a7d83e5666906f6201aec501bb586dd7363ec049884aa0517e9ed5eaf1a9be
+EV-026,work/Pixel 3/data/data/com.google.android.dialer/databases/annotated_call_log.db,Google Dialer annotated call log (Task 5.2),24576,e7b896b11cdc375b938fba749ab9d2fab1aeec408a88c2b0ff50cb6f6a417e59
+EV-027,work/Pixel 3/data/data/com.google.android.dialer/databases/voicemail.db,Google Dialer voicemail database (Task 5.2),24576,760c5ff7f09f76daf06cf70564b8e5449b091d1cff06b5e0cf3027a1dbc39141
+EV-028,work/Pixel 3/data/data/com.whatsapp/databases/msgstore.db,WhatsApp database with sidecars (Task 6.1),823296,9e133d7262f526b1dab7313f636a1a3f32984d8008310a1a699c83496dd13105
+EV-029,work/Pixel 3/data/data/com.whatsapp/databases/msgstore.db-wal,WhatsApp database with sidecars (Task 6.1),449112,b77d21668712d0d79b1546ba0ad7f54a1d81febf9f8a240b0f2786bb3c7f6fb1
+EV-030,work/Pixel 3/data/data/com.whatsapp/databases/msgstore.db-shm,WhatsApp database with sidecars (Task 6.1),32768,30e011030e1fcb7b313bd63e6707772bd1b12256f838187af1118061b71c1ef5
+EV-031,work/Pixel 3/data/data/com.whatsapp/databases/wa.db,WhatsApp database with sidecars (Task 6.1),4096,0a8ffb6b327963558716e87db8946016d143e39f895fa1b43e95ba7032ce2514
+EV-032,work/Pixel 3/data/data/com.whatsapp/databases/wa.db-wal,WhatsApp database with sidecars (Task 6.1),325512,9ee278918b696a6773ca45f2a4f12415edf3550b8687ed62bb235ff3a02c8578
+EV-033,work/Pixel 3/data/data/com.whatsapp/databases/wa.db-shm,WhatsApp database with sidecars (Task 6.1),32768,c1320b3f307b9f7508eb606778b0843935ee830513d4ceefad1f1999b06641d5
+EV-034,work/Pixel 3/data/data/com.enflick.android.TextNow/databases/textnow_data.db,TextNow textnow_data.db (Task 6.2),155648,3ceb390eb1a197c38c1f44772bbce80652731319da109bc6f6b3aeddc75edc86
+EV-035,work/Pixel 3/data/data/com.whatsapp/shared_prefs/com.whatsapp_preferences_light.xml,"WhatsApp preferences: registration_jid, push_name, version (Task 6.1); secrets not read",8031,c681fc8846d6fa836750941c41186c4403ecd6dbfe91330c07d3f5dca0f4253f
+EV-036,work/Pixel 3/data/data/com.enflick.android.TextNow/shared_prefs/com.enflick.android.TextNow_preferences.xml,TextNow preferences: userinfo_phone and account_status (Task 6.2); id/token keys not used,6508,28d9601f8ee02c83312143df7d2bcf35124fea8c9046b933477c3e6767d226c3
+EV-037,work/Pixel 3/data/data/com.whatsapp/databases/location.db,WhatsApp location database with sidecars (Tasks 6 and 7),4096,0a8ffb6b327963558716e87db8946016d143e39f895fa1b43e95ba7032ce2514
+EV-038,work/Pixel 3/data/data/com.whatsapp/databases/location.db-wal,WhatsApp location database with sidecars (Tasks 6 and 7),123632,d5e8ac292f83d834b25e1a8606acf862c0adc66ece7f83d80656e24d5d676c8d
+EV-039,work/Pixel 3/data/data/com.whatsapp/databases/location.db-shm,WhatsApp location database with sidecars (Tasks 6 and 7),32768,4a20d32e6634c2e2f892756a3ec9d552a03f6002ffdde674968ae0f6f625abed
+EV-040,work/Pixel 3/data/data/com.whatsapp/databases/location.db,"Duplicate registration of EV-037 (same file, identical SHA-256); retained so IDs stay append-only",4096,0a8ffb6b327963558716e87db8946016d143e39f895fa1b43e95ba7032ce2514
+EV-041,work/Pixel 3/data/data/com.whatsapp/databases/location.db-wal,"Duplicate registration of EV-038 (same file, identical SHA-256); retained so IDs stay append-only",123632,d5e8ac292f83d834b25e1a8606acf862c0adc66ece7f83d80656e24d5d676c8d
+EV-042,work/Pixel 3/data/data/com.whatsapp/databases/location.db-shm,"Duplicate registration of EV-039 (same file, identical SHA-256); retained so IDs stay append-only",32768,4a20d32e6634c2e2f892756a3ec9d552a03f6002ffdde674968ae0f6f625abed
+EV-043,work/Pixel 3/data/media/0/Pictures/Twitter/IMG_20200203_213034.jpg,"Media file referenced by TextNow attachment (Tasks 6.2, 7.2)",180093,9e4cfa7156cee39e925ac25c29bc8a513b0b5264b4c18ebca3bba31ae5890491
+EV-044,work/Pixel 3/data/media/0/TextNow/TextNow Images/image-2020-02-08-15-35-37.jpg,"Media file referenced by TextNow attachment (Tasks 6.2, 7.2)",53708,aaf32249d1ce7acd01e9bd17ecc25a066fccc5b0467d4134250427da3d1bdcbb
+EV-045,work/Pixel 3/data/data/com.google.android.apps.maps/databases/gmm_myplaces.db,Google Maps database (Task 7.1),40960,9d09ce47a0c03bd5ffaad8a3869e0852d430e915dad852d08855b7a8ca47f7d8
+EV-046,work/Pixel 3/data/data/com.google.android.apps.maps/databases/gmm_storage.db,Google Maps database (Task 7.1),94208,051f30146570a091b801d15b46dde4c8a84fcfbb9ce26e922d48b1c98efe052c
+EV-047,work/Pixel 3/data/data/com.google.android.apps.maps/databases/gmm_sync.db,Google Maps database (Task 7.1),45056,2e96f7a1ab550b26b13675ca972f559540c955f52b6e55dd4c71de39d2f59ce2
+EV-048,work/Pixel 3/data/data/com.google.android.apps.maps/databases/ugc_photos_location_data.db,Google Maps database (Task 7.1),28672,e0c4798fef9e2d55880bfb741114576df8686f46291a7554db5b6acb0d46a00f
+EV-049,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos0.db,Google Photos database with sidecars (Task 7.2),2191360,f51795f717a9b75762726412dc20ed60059fc42e372e23b62942bcd2d8763aa5
+EV-050,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos0.db-wal,Google Photos database with sidecars (Task 7.2),524288,028d7ce7014252d464df011755ac6358019992cffc1c3c4c6b2fd4d210e689f9
+EV-051,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos0.db-shm,Google Photos database with sidecars (Task 7.2),32768,d41107142fd8706c362c79a899facac35ea8ef86a4526d5291e738a4349ceacf
+EV-052,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos-1.db,Google Photos database with sidecars (Task 7.2),1232896,55caad23f7bc42d944a4fb61f0fe83137330f800b00a5538c449de85a8331e20
+EV-053,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos-1.db-wal,Google Photos database with sidecars (Task 7.2),519152,a045b05bb583972ba6a828bcdd092c710c755ef9259a0211b37ced6838ff3f55
+EV-054,work/Pixel 3/data/data/com.google.android.apps.photos/databases/gphotos-1.db-shm,Google Photos database with sidecars (Task 7.2),32768,ca9781587dc27f1562f8dda2525853cf1e4cd75f1facfe0f26ca5e5c268f4f0c
+EV-055,work/Pixel 3/data/media/0/DCIM/Camera/2020-02-09-125547759.mp4,Media file candidate for Task 7.2,13216231,84b124b5e85ed79ddb7d8c9902607020f8583acb9d0dd3f8864f3838aa0c5352
+EV-056,work/Pixel 3/data/media/0/DCIM/Camera/IMG_20200209_132353.jpg,Media file candidate for Task 7.2,3970621,308df52bdab5aa52e9e82b2a853049c688450c2ff6ad76cd75f0c063e61853fa
+EV-057,work/Pixel 3/data/media/0/DCIM/Camera/IMG_20200213_195030.jpg,Media file candidate for Task 7.2,3450708,2ed43a0a7b01a58f89c23263542282d3d5713b5cd2f22d7b3d2f56a109145ea6
+EV-058,work/Pixel 3/data/media/0/DCIM/Restored/IMG_20190917_082637.jpg,Media file candidate for Task 7.2,5754953,8c2a100a6a11aeccbfc196439c6d7d1cc0a149b3dd18264747735b7201bc1177
+EV-059,work/Pixel 3/data/media/0/WhatsApp/Media/WhatsApp Images/IMG-20200208-WA0000.jpg,"WhatsApp image matching msgstore.db media_size (Tasks 6.1, 7.2)",21890,42941238f9492a0ea7089f6f7e656d4ef87e2f700ed9c86eebf1c3831bb57a51
+EV-060,work/Pixel 3/data/media/0/WhatsApp/Media/WhatsApp Images/Sent/IMG-20200208-WA0001.jpg,"WhatsApp image matching msgstore.db media_size (Tasks 6.1, 7.2)",87909,3b8575c790ccb12c335ce618a92cac0271072f291842c0356188d10d748bd452
+EV-061,work/Pixel 3/data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db,"Google Maps database, other (Task 7.1)",389120,77467648434bf0462b9dcc8b885cb0efe780d4dab6b330740e6b178894eaa63c
+EV-062,work/Pixel 3/data/data/com.google.android.apps.maps/databases/ue3.db,"Google Maps database, other (Task 7.1)",24576,1f11a151ee176af3abe5fc304758062a9cf082b6f26e29430b7e71bbd0c16d4d
+EV-063,work/Pixel 3/data/data/com.google.android.apps.maps/databases/inbox_notifications.db,"Google Maps database, other (Task 7.1)",20480,27380fc78c5e43365192d991d20b7d1fc246e50a826c0b0d6f64c10a0da37d12
+EV-064,work/Pixel 3/data/media/0/Android/data/com.google.android.apps.maps/cache/diskcache/map_cache.db,"Google Maps database, other (Task 7.1)",3231744,0dec355e59351cd78580e390aae40d64d8bfad8a9b6ffd2f9d8b0d706193a09d

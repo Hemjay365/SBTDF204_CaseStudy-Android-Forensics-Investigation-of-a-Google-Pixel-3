@@ -1,0 +1,11 @@
+kind  _id  dir_code   epoch_s            utc                                         content
+----  ---  --------  ----------  -------------------  ----------------------------------------------------------------------
+mms     1         2  1580587493  2020-02-01 20:04:53  Here's Signal.
+mms     2         1  1580587564  2020-02-01 20:06:04  It looks like the messaging is run through the Messages app. Strange.
+mms     3         2  1580587672  2020-02-01 20:07:52  It might be an attempt at unified messaging...?
+mms     4         1  1580587692  2020-02-01 20:08:12  Maybe?
+mms     5         2  1580587767  2020-02-01 20:09:27  It will be interesting to see where the messages are stored.
+sms    21         2  1581273702  2020-02-09 18:41:42  I am on my way to the coffee shop. Do you want anything?
+mms     6         1  1581273788  2020-02-09 18:43:08  No, thank you
+sms    25         2  1581685743  2020-02-14 13:09:03  Wow, the messages sync over between accounts.
+mms     7         1  1581685808  2020-02-14 13:10:08  That is interesting.

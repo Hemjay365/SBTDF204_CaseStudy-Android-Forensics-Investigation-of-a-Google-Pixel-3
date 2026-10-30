@@ -1,0 +1,38 @@
+_id  conv  proto  status  read  seen      tele_uri      sent_timestamp  received_timestamp     received_utc                             text
+---  ----  -----  ------  ----  ----  ----------------  --------------  ------------------  -------------------  --------------------------------------------------
+  1     2      0     100     0     1  content://sms/2    1580322043000       1580322045251  2020-01-29 18:20:45  <#> [verification code - redacted] within the next
+  2     3      0     100     0     1  content://sms/3    1580322645000       1580322646631  2020-01-29 18:30:46  [code - redacted]
+  3     3      5     210     1     1                     1580322646632       1580322646632  2020-01-29 18:30:46
+  4     4      0     100     0     1  content://sms/4    1580322696000       1580322696889  2020-01-29 18:31:36  [code - redacted]
+  5     5      0     100     0     1  content://sms/5    1580322727000       1580322728551  2020-01-29 18:32:08  [code - redacted]
+  6     6      0     100     0     1  content://sms/6    1580322819000       1580322820355  2020-01-29 18:33:40  [code - redacted]
+  7     7      0     100     0     1  content://sms/7    1580322902000       1580322903320  2020-01-29 18:35:03  [code - redacted]
+  8     8      0     100     0     1  content://sms/8    1580323027000       1580323028883  2020-01-29 18:37:08  [code - redacted]
+  9     8      5     210     1     1                     1580323028884       1580323028884  2020-01-29 18:37:08
+ 10     3      0     100     0     1  content://sms/9    1580323297000       1580323298115  2020-01-29 18:41:38  [code - redacted]
+ 11     9      0     100     0     1  content://sms/10   1580323387000       1580323388596  2020-01-29 18:43:08  [code - redacted]
+ 12    10      0     100     0     1  content://sms/11   1580323812000       1580323813826  2020-01-29 18:50:13  [code - redacted]
+ 13    11      0     100     0     1  content://sms/12   1580323824000       1580323824938  2020-01-29 18:50:24  Confirmed! To edit SMS preferences go to m.faceboo
+ 14    11      5     210     1     1                     1580323824939       1580323824939  2020-01-29 18:50:24
+ 15     3      0     100     0     1  content://sms/13   1580328969000       1580328970337  2020-01-29 20:16:10  [code - redacted]
+ 16    12      0     100     0     1  content://sms/14   1580332532000       1580332533357  2020-01-29 21:15:33  [code - redacted]
+ 17    13      0     100     1     1  content://sms/15   1580518801000       1580518803531  2020-02-01 01:00:03  [code - redacted]
+ 18    14      0     100     1     1  content://sms/16   1580519051000       1580519052798  2020-02-01 01:04:12  [code - redacted]
+ 19    14      5     210     1     1                     1580519052799       1580519052799  2020-02-01 01:04:12
+ 20    15      3     207     1     1                     1580587472667       1580587472667  2020-02-01 20:04:32
+ 21    15      3       2     1     1  content://mms/1    1580587493369       1580587493369  2020-02-01 20:04:53  Here's Signal.
+ 25    15      3     100     1     1  content://mms/2    1580587564945       1580587564991  2020-02-01 20:06:04  It looks like the messaging is run through the Mes
+ 26    15      3       2     1     1  content://mms/3    1580587672756       1580587672756  2020-02-01 20:07:52  It might be an attempt at unified messaging...?
+ 27    15      3     100     1     1  content://mms/4    1580587692408       1580587692430  2020-02-01 20:08:12  Maybe?
+ 28    15      3       2     1     1  content://mms/5    1580587767794       1580587767794  2020-02-01 20:09:27  It will be interesting to see where the messages a
+ 29    11      0     100     0     1  content://sms/17   1580757524000       1580757526393  2020-02-03 19:18:46  👤 Xavier Mccollum is a new Facebook friend suggest
+ 30    11      0     100     0     1  content://sms/18   1580919738000       1580919741561  2020-02-05 16:22:21  🔔 ThisIs, you have 1 new notification on Facebook:
+ 31    11      0     100     0     1  content://sms/19   1581063357000       1581063359840  2020-02-07 08:15:59  🔔 ThisIs, you have 1 new notification on Facebook:
+ 32    11      0     100     0     1  content://sms/20   1581185818000       1581185821854  2020-02-08 18:17:01  🔔 ThisIs, you have 1 new notification on Facebook:
+ 33    15      0       1     1     1  content://sms/21               0       1581273702392  2020-02-09 18:41:42  I am on my way to the coffee shop. Do you want any
+ 34    15      3     100     1     1  content://mms/6    1581273788027       1581273788144  2020-02-09 18:43:08  No, thank you
+ 35    11      0     100     0     1  content://sms/22   1581444159000       1581444160908  2020-02-11 18:02:40  🔔 ThisIs, you have 6 new notifications on Facebook
+ 36    11      0     100     0     1  content://sms/23   1581534737000       1581534738811  2020-02-12 19:12:18  🔔 ThisIs, you have 9 new notifications on Facebook
+ 37    11      0     100     0     1  content://sms/24   1581628343000       1581628344576  2020-02-13 21:12:24  🔔 ThisIs, you have 9 new notifications on Facebook
+ 39    15      0       1     1     1  content://sms/25               0       1581685743277  2020-02-14 13:09:03  Wow, the messages sync over between accounts.
+ 38    15      3     100     1     1  content://mms/7    1581685808035       1581685808276  2020-02-14 13:10:08  That is interesting.

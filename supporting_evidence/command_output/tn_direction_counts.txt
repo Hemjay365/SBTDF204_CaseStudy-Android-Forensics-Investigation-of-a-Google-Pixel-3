@@ -1,0 +1,8 @@
+message_direction  message_type  state  read                                   attach                                   n
+-----------------  ------------  -----  ----  ------------------------------------------------------------------------  -
+                1             1      0     1                                                                            4
+                1             2      0     1  /storage/emulated/0/TextNow/TextNow Images/image-2020-02-08-15-35-37.jpg  1
+                2             1      0     1                                                                            1
+                2             2      0     1  /storage/emulated/0/Pictures/Twitter/IMG_20200203_213034.jpg              1
+                2           102      2     1                                                                            1
+                2           201      2     1                                                                            1

@@ -1,0 +1,12 @@
+_id      account_name               account_type            deleted  contact_id
+---  --------------------  -------------------------------  -------  ----------
+  1  thisisdfir@gmail.com  com.google                             0          10
+  2  858233690             org.telegram.messenger                 0          10
+  3  thisisdfir            com.silentcircle.account               0          10
+  4  Signal                org.thoughtcrime.securesms             0          10
+  5  Skype                 com.skype.raider                       0          10
+  6  858233690             org.telegram.messenger                 1
+  7  858233690             org.telegram.messenger                 1
+  8  +19195794674          com.viber.voip                         0          10
+  9  WhatsApp              com.whatsapp                           0          10
+ 10  Duo                   com.google.android.apps.tachyon        0          10

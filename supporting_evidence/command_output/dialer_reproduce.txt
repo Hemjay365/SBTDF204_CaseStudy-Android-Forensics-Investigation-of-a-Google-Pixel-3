@@ -1,0 +1,8 @@
+       metric         n
+--------------------  --
+aosp_total            14
+dialer_total          12
+aosp_voicemail_type4   2
+dialer_type4           0
+aosp_not_in_dialer     2
+dialer_not_in_aosp     0

@@ -1,0 +1,3 @@
+_id  contact_value  contact_type  message_count
+---  -------------  ------------  -------------
+  6  +19842032223              2

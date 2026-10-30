@@ -1,0 +1,7 @@
+_id     user          server      agent  device  type            raw_string
+---  -----------  --------------  -----  ------  ----  ------------------------------
+  1  status       broadcast           0       0     5  status@broadcast
+  2  0            s.whatsapp.net      0       0     7  0@s.whatsapp.net
+  3  16505434800  s.whatsapp.net      0       0     0  16505434800@s.whatsapp.net
+  4  19195790479  s.whatsapp.net      0       0     0  19195790479@s.whatsapp.net
+  5  19195790479  s.whatsapp.net      0       0    17  19195790479.0:0@s.whatsapp.net

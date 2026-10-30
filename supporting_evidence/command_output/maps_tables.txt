@@ -1,0 +1,10 @@
+== maps/gmm_myplaces (non-empty tables)
+sync_item: 1
+sync_corpus: 1
+== maps/gmm_storage (non-empty tables)
+gmm_storage_table: 4
+== maps/gmm_sync (non-empty tables)
+sync_item_data: 7
+sync_corpus_metadata: 12
+sync_metadata: 1
+== maps/ugc_photos_location_data (non-empty tables)

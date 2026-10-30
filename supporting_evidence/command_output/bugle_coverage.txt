@@ -1,0 +1,3 @@
+bugle_total  sms_matched  tele_sms  mms_matched  tele_pdu
+-----------  -----------  --------  -----------  --------
+         36           24        24            7         7

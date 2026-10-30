@@ -1,0 +1,2 @@
+WhatsApp row 14: file hash MATCHES media_hash
+WhatsApp row 16: file hash MATCHES media_hash

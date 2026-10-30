@@ -1,0 +1,5 @@
+           jid                number    display_name    wa_name     is_whatsapp_user
+--------------------------  ----------  ------------  ------------  ----------------
+status@broadcast                                                                   1
+16505434800@s.whatsapp.net                                                         1
+19195790479@s.whatsapp.net  9195790479  Josh Hickman  Josh Hickman                 1

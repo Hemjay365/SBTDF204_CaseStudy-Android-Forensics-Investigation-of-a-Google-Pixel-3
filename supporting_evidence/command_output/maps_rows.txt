@@ -1,0 +1,63 @@
+=== gmm_myplaces.db.sync_item  columns: corpus,key_string,timestamp,merge_key,feature_fprint,latitude,longitude,is_local,sync_item
+  corpus=8 | key_string=1:0 | timestamp=1554407343604 | merge_key=0 | feature_fprint=None | latitude=35734602 | longitude=-78636654 | is_local=0
+    [sync_item: 217 bytes] !121 E Tryon Rd, Raleigh, NC 27603 ; %0x89ac5fe7d461ef99:0x591ca128b6afcf49" ; -2fhttp://maps.google.com/?q=121+E+Tryon+Rd,+Raleigh,+NC+27603&ftid=0x89ac5fe7d461ef99:0x5
+=== gmm_myplaces.db.sync_corpus  columns: corpus,last_sync_time
+  corpus=8 | last_sync_time=1581277539482000
+=== gmm_storage.db.gmm_storage_table  columns: _key_pri,_key_sec,_data
+  _key_pri=uri | _key_sec=0
+    [_data: 57582 bytes] 1033101040sr ; Lchvd;[ ; [Laaoq;[ ; [Laaoo;L ; Lawti;L ; java.lang.Enum
+  _key_pri=uri | _key_sec=1
+    [_data: 212 bytes] 1033101040sr ; Lchvd;L ; Ljava/util/List;xr ; java.lang.Enum ; DRIVEsr ; java.util.Collections$EmptyListz
+  _key_pri=CompletedNavigation | _key_sec=0
+    [_data: 11623 bytes] 1033101040sr ; bmgh`7 ; Lawti;L ; Lbvme;L ; Ljava/lang/Long;L ; Ljava/lang/Boolean;L
+  _key_pri=CommuteSetupNotificationModel | _key_sec=1
+    [_data: 37 bytes] 
+=== gmm_sync.db.sync_item_data  columns: corpus,client_id,server_id,timestamp,feature_fprint,latitude_e6,longitude_e6,numerical_index,string_index,sync_state,item_proto
+  corpus=11 | client_id=4:0 | server_id=4:0 | timestamp=0 | feature_fprint=-147120110386196831 | latitude_e6=35659596 | longitude_e6=-78872848 | numerical_index=None | string_index=None | sync_state=0
+    [item_proto: 154 bytes] M152 Sweet Vista Lane, Holly Springs, North Carolina 27540-6173, United States" ; 2%0x89ac9187f8e692c5:0xfdf5530a011d4ea12
+  corpus=11 | client_id=5:0 | server_id=5:0 | timestamp=0 | feature_fprint=8113080470833664497 | latitude_e6=40784374 | longitude_e6=-74065536 | numerical_index=None | string_index=None | sync_state=0
+    [item_proto: 151 bytes] J30 Enterprise Avenue North, Secaucus, New Jersey 07094-2527, United States" ; _fdD@!o ; 2%0x89c257b7bc19353f:0x709773b40a3311f12
+  corpus=11 | client_id=1:0 | server_id=1:0 | timestamp=1554407343604 | feature_fprint=6421184364959223625 | latitude_e6=35734602 | longitude_e6=-78636654 | numerical_index=None | string_index=None | sync_state=0
+    [item_proto: 178 bytes] 121 E Tryon Rd ; 121 E Tryon Rd ; Raleigh, NC 27603 ; +121 E Tryon Rd, Raleigh, NC 27603-3582, USA" ; 2%0x89ac5fe7d461ef99:0x591ca128b6afcf492
+  corpus=13 | client_id=1581273852322_175453746935554 | server_id=None | timestamp=0 | feature_fprint=None | latitude_e6=0 | longitude_e6=0 | numerical_index=None | string_index=1581273852322_175453746935554 | sync_state=0
+    [item_proto: 76 bytes] 116154953456844128063* ; Favorite places2
+  corpus=13 | client_id=1581273852322_175453747018211 | server_id=None | timestamp=0 | feature_fprint=None | latitude_e6=0 | longitude_e6=0 | numerical_index=None | string_index=1581273852322_175453747018211 | sync_state=0
+    [item_proto: 76 bytes] 116154953456844128063* ; Followed places2
+  corpus=13 | client_id=1581273852322_175453747040450 | server_id=None | timestamp=0 | feature_fprint=None | latitude_e6=0 | longitude_e6=0 | numerical_index=None | string_index=1581273852322_175453747040450 | sync_state=0
+    [item_proto: 75 bytes] 116154953456844128063* ; Want to go2
+  corpus=6 | client_id=User Parameters | server_id=User Parameters | timestamp=0 | feature_fprint=None | latitude_e6=0 | longitude_e6=0 | numerical_index=None | string_index=None | sync_state=0
+    [item_proto: 52 bytes] 
+=== gmm_sync.db.sync_corpus_metadata  columns: corpus,sync_token,unique_id_provider,pagination_token,last_sync_time_for_corpus
+  corpus=1 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=2 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=6 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=7 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=8 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=10 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=11 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=12 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=13 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=14 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=15 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+  corpus=16 | sync_token=[omitted] | unique_id_provider=0 | pagination_token=[omitted] | last_sync_time_for_corpus=1581277538919
+=== gmm_sync.db.sync_metadata  columns: metadata_key,numerical_value
+  metadata_key=last_sync_time | numerical_value=1581277538891
+
+=== time conversions
+gmm_myplaces.sync_item.timestamp (ms): 1554407343604 -> 2019-04-04 19:49:03 UTC
+gmm_sync corpus 13 client_id prefix (ms): 1581273852322 -> 2020-02-09 18:44:12 UTC
+gmm_sync.sync_corpus_metadata.last_sync_time_for_corpus (ms): 1581277538919 -> 2020-02-09 19:45:38 UTC
+gmm_sync.sync_metadata.last_sync_time (ms): 1581277538891 -> 2020-02-09 19:45:38 UTC
+gmm_myplaces.sync_corpus.last_sync_time (16 digits, read as microseconds): 1581277539482000 -> 2020-02-09 19:45:39 UTC
+days from record A to photo 2019-09-17: 166
+
+=== distance, Maps place records vs photo GPS
+Maps client_id 4:0 vs photo 2020-02-09 (EV-056): 655 m
+Maps client_id 4:0 vs photo 2020-02-13 (EV-057): 148 m
+Maps client_id 4:0 vs photo 2019-09-17 (EV-058): 22968 m
+Maps client_id 1:0 vs photo 2020-02-09 (EV-056): 23441 m
+Maps client_id 1:0 vs photo 2020-02-13 (EV-057): 23046 m
+Maps client_id 1:0 vs photo 2019-09-17 (EV-058): 119 m
+Maps client_id 5:0 vs photo 2020-02-09 (EV-056): 707848 m
+Maps client_id 5:0 vs photo 2020-02-13 (EV-057): 707747 m
+Maps client_id 5:0 vs photo 2019-09-17 (EV-058): 688551 m
