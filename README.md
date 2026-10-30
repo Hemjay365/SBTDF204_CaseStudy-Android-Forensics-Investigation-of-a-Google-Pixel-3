@@ -10,7 +10,6 @@ This package is a submission for the SBT-DF205 Case 1 lab. All times are UTC unl
 | Item | What it is |
 |---|---|
 | `Report.pdf` | The examination report (6 pages of body, Appendix A screenshots, Appendix B full timeline) |
-| `Report.docx` | The same report as an editable Word document |
 | `Evidence_Register.csv` | 64 evidence entries (EV-001 to EV-064): source path, record reference, size, SHA-256 |
 | `Timeline.csv` | 30 events from 8 artefact families: UTC time, raw value, field, unit, description, evidence IDs |
 | `Queries.sql` | The key SQL statements and non-SQL commands, with database and purpose for each |
@@ -31,7 +30,7 @@ The 5.25 GB evidence archive, the extracted file system and the full database co
 3. Run the matching statement from `Queries.sql` on a copy of that file, keeping its `-wal` and `-shm` files with it.
 4. Compare with the file of the same name in `supporting_evidence/command_output/`.
 
-## Notes for the marker
+## Notes
 
 - **Write-ahead logs matter.** `bugle_db` returns 36 messages with its WAL and 35 without; `wa.db` has no `wa_contacts` table without its WAL. All such databases were copied with their sidecars.
 - **Duplicate register rows.** EV-040 to EV-042 repeat EV-037 to EV-039 (the same `location.db` files registered twice, identical hashes) and are annotated as such.
